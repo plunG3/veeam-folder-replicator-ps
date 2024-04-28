@@ -10,7 +10,7 @@ This PowerShell script replicates the contents of a source folder to a replica d
 ## Usage
 PowerShell
 
-`.\ReplicateFolder.ps1 -Source <source_folder_path> -Replica <replica_folder_path> -LogPath <log_file_path>`
+`.\replicate.ps1 -Source <source_folder_path> -Replica <replica_folder_path> -LogPath <log_file_path>`
 
 Use code with caution.
 
@@ -23,7 +23,7 @@ Arguments:
 ## Example
 PowerShell
 
-`.\ReplicateFolder.ps1 -Source "C:\MyDocuments\Important Files" -Replica "C:\Backups\Documents" -LogPath "C:\Logs\FolderReplication.log"`
+`.\replicate.ps1 -Source "C:\MyDocuments\Important Files" -Replica "C:\Backups\Documents" -LogPath "C:\Logs\FolderReplication.log"`
 
 Use code with caution.
 
