@@ -32,7 +32,7 @@ Requirements
 
     PowerShell 5.1 or later
 
-How it Works
+## How it Works
 
     The script parses the command-line arguments for the source folder path, replica folder path, and log file path.
     It validates the existence of the source folder.
@@ -41,5 +41,8 @@ How it Works
     For each file, it copies it to the corresponding location in the replica directory.
     All actions (source file path, destination file path, and timestamps) are logged to both the console and the specified log file.
 
-Written by Calvin Glass
+
+## Author
+
+Calvin Glass  
 2024-04-28
