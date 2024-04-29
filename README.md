@@ -1,5 +1,5 @@
 
-# PowerShell Script: Folder Replicator
+# PowerShell Script: ReplicateFolder
 
 This PowerShell script replicates the contents of a source folder to a replica directory, logging the process to both the terminal and a specified log file.
 ## Features
@@ -10,7 +10,7 @@ This PowerShell script replicates the contents of a source folder to a replica d
 ## Usage
 PowerShell
 
-`.\replicate.ps1 -Source <source_folder_path> -Replica <replica_folder_path> -LogPath <log_file_path>`
+`.\ReplicateFolder.ps1 -Source <source_folder_path> -Replica <replica_folder_path> -LogPath <log_file_path>`
 
 Use code with caution.
 
@@ -23,7 +23,7 @@ Arguments:
 ## Example
 PowerShell
 
-`.\replicate.ps1 -Source "C:\MyDocuments\Important Files" -Replica "C:\Backups\Documents" -LogPath "C:\Logs\FolderReplication.log"`
+`.\ReplicateFolder.ps1 -Source "C:\MyDocuments\Important Files" -Replica "C:\Backups\Documents" -LogPath "C:\Logs\FolderReplication.log"`
 
 Use code with caution.
 
