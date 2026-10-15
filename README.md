@@ -1,5 +1,5 @@
 
-# PowerShell Script: ReplicateFolder
+# PowerShell Script: ReplicateFolder !
 
 This PowerShell script replicates the contents of a source folder to a replica directory, logging the process to both the terminal and a specified log file.
 ## Features
